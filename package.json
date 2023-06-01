@@ -7,18 +7,27 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@prismicio/client": "^7.0.1",
+    "@prismicio/next": "^1.2.1",
+    "@prismicio/react": "^2.6.2",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
     "prettier": "2.8.8",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1"
   },
   "engines": {
     "node": "18.16.0",
     "npm": "please-use-yarn"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.2.0",
+    "slice-machine-ui": "^1.1.0"
   }
 }
